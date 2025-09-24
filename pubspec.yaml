@@ -1,0 +1,48 @@
+name: antique_lane
+description: A vintage and antique furniture e-commerce app
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  cached_network_image: ^3.2.3
+  flutter_staggered_animations: ^1.1.1
+  animate_do: ^3.0.2
+  glassmorphism: ^3.0.0
+  intl: ^0.18.1
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: PlayfairDisplay
+      fonts:
+        - asset: fonts/PlayfairDisplay-Regular.ttf
+        - asset: fonts/PlayfairDisplay-Bold.ttf
+          weight: 700
+    - family: Inter
+      fonts:
+        - asset: fonts/Inter-Regular.ttf
+        - asset: fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: fonts/Inter-SemiBold.ttf
+          weight: 600
